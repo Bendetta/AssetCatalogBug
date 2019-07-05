@@ -1,0 +1,16 @@
+PODS:
+  - AssetBugShared (0.1.0)
+
+DEPENDENCIES:
+  - AssetBugShared (from `../`)
+
+EXTERNAL SOURCES:
+  AssetBugShared:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AssetBugShared: ae4fcac7f96c32e9bd2f8b4a5f0781b098767275
+
+PODFILE CHECKSUM: 2d2a9cd4fe25bf9cf26031b9da2b560ba11873c3
+
+COCOAPODS: 1.7.2

@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042A98604BFF29CEC48394F6C7E5A87F /* Pods-ColorAssetBug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEFC53679A96AC698EC233E745D44E7 /* Pods-ColorAssetBug-dummy.m */; };
+		31BD41DF574322CF3571F47551C9363E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5B53D90E5F6FA03E95855520FC586C2B /* AssetBugShared-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151B8186AAE20A6AD4F5D5A8DEA79283 /* AssetBugShared-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		716597A696B72854A2E05E18DF8BC07D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		749C1BE618B5EF5B1179DE8188A525F4 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB5939B074381C04233842E7ED7610 /* SharedClass.swift */; };
+		9732816290DAAA5D06C04201DA1B2A6B /* Pods-ColorAssetBug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7A5F4A1EF260CF587FD832873D4F78 /* Pods-ColorAssetBug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99C244E3C6B4C3F0E056A2A207DBF655 /* AssetBugShared-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1BDD52171B23EE40A548B6AD22CF /* AssetBugShared-dummy.m */; };
+		A040249AF493837E7A381B33032C0826 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2659FCCEE8FEA16CAB9C44DF2A1AB3 /* UIColorExtensions.swift */; };
+		B640E3A2688E7BBF5C1A03A668E4319B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01E6286AC80ABE499F6506F4F786C88 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1E675EE538963C4247B58B96A6739D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3A5C755CF844BED661A72CDFCFDDED;
+			remoteInfo = AssetBugShared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05804461C6122D4EF1A5D685DBAF8A68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		151B8186AAE20A6AD4F5D5A8DEA79283 /* AssetBugShared-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AssetBugShared-umbrella.h"; sourceTree = "<group>"; };
+		18D34F7B1C77885B5C766EC467B0C74B /* Pods-ColorAssetBug-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorAssetBug-frameworks.sh"; sourceTree = "<group>"; };
+		1E2659FCCEE8FEA16CAB9C44DF2A1AB3 /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = Example/AssetBugShared/Source/UIColorExtensions.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A778ED056AEFF04E192E30900D46127 /* Pods-ColorAssetBug-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorAssetBug-Info.plist"; sourceTree = "<group>"; };
+		3E2CE44863393A433892F8909565A1A7 /* Pods-ColorAssetBug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorAssetBug.modulemap"; sourceTree = "<group>"; };
+		4A7A5F4A1EF260CF587FD832873D4F78 /* Pods-ColorAssetBug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorAssetBug-umbrella.h"; sourceTree = "<group>"; };
+		4ABB5939B074381C04233842E7ED7610 /* SharedClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedClass.swift; path = Example/AssetBugShared/Source/SharedClass.swift; sourceTree = "<group>"; };
+		53321BBCEB01D4C9495FABC7E1C4E5FC /* Pods-ColorAssetBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAssetBug.debug.xcconfig"; sourceTree = "<group>"; };
+		55307767681B62CA8F5767C4F9C1DA87 /* Pods-ColorAssetBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorAssetBug.release.xcconfig"; sourceTree = "<group>"; };
+		5FBC1371AA46EF88FA77C8606E411CA7 /* AssetBugShared.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AssetBugShared.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C269FE193AE8D0BDECE33BC230DAA55 /* AssetBugShared.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AssetBugShared.xcconfig; sourceTree = "<group>"; };
+		7EEFC53679A96AC698EC233E745D44E7 /* Pods-ColorAssetBug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorAssetBug-dummy.m"; sourceTree = "<group>"; };
+		826A3C9D2FE6E2253A0F364E855D7366 /* Pods-ColorAssetBug-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorAssetBug-acknowledgements.plist"; sourceTree = "<group>"; };
+		843B1BDD52171B23EE40A548B6AD22CF /* AssetBugShared-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AssetBugShared-dummy.m"; sourceTree = "<group>"; };
+		92BF80B86F4A34E426CBDD1A190B6A4D /* AssetBugShared.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AssetBugShared.modulemap; sourceTree = "<group>"; };
+		9801ADFD9960310F2E0C04040B84C77D /* AssetBugShared-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AssetBugShared-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A346CA89C9864DAFDBBB690B05BAEDD5 /* Pods_ColorAssetBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorAssetBug.framework; path = "Pods-ColorAssetBug.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9114D69D0340EB344CEC57457B8B55F /* Pods-ColorAssetBug-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorAssetBug-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF66BDFA2696D4956DE3D5046FD92ACD /* AssetBugShared-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AssetBugShared-prefix.pch"; sourceTree = "<group>"; };
+		EA086B3EF0F5BE0721505F614B768C4A /* AssetBugShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AssetBugShared.framework; path = AssetBugShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01E6286AC80ABE499F6506F4F786C88 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Example/AssetBugShared/Assets.xcassets; sourceTree = "<group>"; };
+		F42CA1B60C417DCA4E8CD2FA6E3FFD7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB66C8E5D008066A7A5F27E8412F10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BD41DF574322CF3571F47551C9363E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BF4B3283A7CC1491B71AD51F2635D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716597A696B72854A2E05E18DF8BC07D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B307D83396B6F1716C7BFD525BCDC0D /* AssetBugShared */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB5939B074381C04233842E7ED7610 /* SharedClass.swift */,
+				1E2659FCCEE8FEA16CAB9C44DF2A1AB3 /* UIColorExtensions.swift */,
+				DE019FB76987F42C77C28EF23B2ADC83 /* Pod */,
+				463191B58A25E0D37F698AE96584E789 /* Resources */,
+				FF1E02861DEB57D11C80D1B49A0440AA /* Support Files */,
+			);
+			name = AssetBugShared;
+			path = ../../../assetpod/AssetBugShared;
+			sourceTree = "<group>";
+		};
+		2D5D988908319B7E3C33CD424722AC99 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B307D83396B6F1716C7BFD525BCDC0D /* AssetBugShared */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		428ED211DF5B64CBE28222BD88C0B519 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF444AD41869F56DBAEFC6049D13EFED /* Pods-ColorAssetBug */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		463191B58A25E0D37F698AE96584E789 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F01E6286AC80ABE499F6506F4F786C88 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF444AD41869F56DBAEFC6049D13EFED /* Pods-ColorAssetBug */ = {
+			isa = PBXGroup;
+			children = (
+				3E2CE44863393A433892F8909565A1A7 /* Pods-ColorAssetBug.modulemap */,
+				A9114D69D0340EB344CEC57457B8B55F /* Pods-ColorAssetBug-acknowledgements.markdown */,
+				826A3C9D2FE6E2253A0F364E855D7366 /* Pods-ColorAssetBug-acknowledgements.plist */,
+				7EEFC53679A96AC698EC233E745D44E7 /* Pods-ColorAssetBug-dummy.m */,
+				18D34F7B1C77885B5C766EC467B0C74B /* Pods-ColorAssetBug-frameworks.sh */,
+				3A778ED056AEFF04E192E30900D46127 /* Pods-ColorAssetBug-Info.plist */,
+				4A7A5F4A1EF260CF587FD832873D4F78 /* Pods-ColorAssetBug-umbrella.h */,
+				53321BBCEB01D4C9495FABC7E1C4E5FC /* Pods-ColorAssetBug.debug.xcconfig */,
+				55307767681B62CA8F5767C4F9C1DA87 /* Pods-ColorAssetBug.release.xcconfig */,
+			);
+			name = "Pods-ColorAssetBug";
+			path = "Target Support Files/Pods-ColorAssetBug";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2D5D988908319B7E3C33CD424722AC99 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F7D8EACB80FED67CFFB2646BE3C605F2 /* Products */,
+				428ED211DF5B64CBE28222BD88C0B519 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE019FB76987F42C77C28EF23B2ADC83 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5FBC1371AA46EF88FA77C8606E411CA7 /* AssetBugShared.podspec */,
+				F42CA1B60C417DCA4E8CD2FA6E3FFD7A /* LICENSE */,
+				05804461C6122D4EF1A5D685DBAF8A68 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F7D8EACB80FED67CFFB2646BE3C605F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA086B3EF0F5BE0721505F614B768C4A /* AssetBugShared.framework */,
+				A346CA89C9864DAFDBBB690B05BAEDD5 /* Pods_ColorAssetBug.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1E02861DEB57D11C80D1B49A0440AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BF80B86F4A34E426CBDD1A190B6A4D /* AssetBugShared.modulemap */,
+				6C269FE193AE8D0BDECE33BC230DAA55 /* AssetBugShared.xcconfig */,
+				843B1BDD52171B23EE40A548B6AD22CF /* AssetBugShared-dummy.m */,
+				9801ADFD9960310F2E0C04040B84C77D /* AssetBugShared-Info.plist */,
+				AF66BDFA2696D4956DE3D5046FD92ACD /* AssetBugShared-prefix.pch */,
+				151B8186AAE20A6AD4F5D5A8DEA79283 /* AssetBugShared-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../app/ColorAssetBug/Pods/Target Support Files/AssetBugShared";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DC72FF43C21E160376AF0AF04698CC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B53D90E5F6FA03E95855520FC586C2B /* AssetBugShared-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B4287B9DE15EB7090A523FE7287B1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9732816290DAAA5D06C04201DA1B2A6B /* Pods-ColorAssetBug-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27B2ED37853FAB9A2D9AA72ACDF00631 /* Pods-ColorAssetBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523DB7714E23FA5E6BE83BA0DC303EE0 /* Build configuration list for PBXNativeTarget "Pods-ColorAssetBug" */;
+			buildPhases = (
+				E9B4287B9DE15EB7090A523FE7287B1C /* Headers */,
+				ACFD1FFF3FEAB1CCB5BA1A18B3AE8793 /* Sources */,
+				EAB66C8E5D008066A7A5F27E8412F10B /* Frameworks */,
+				286DE34EAB5BFD000B9307A41168875F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8263DC9C7DCE9015A94997C9B322D6E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ColorAssetBug";
+			productName = "Pods-ColorAssetBug";
+			productReference = A346CA89C9864DAFDBBB690B05BAEDD5 /* Pods_ColorAssetBug.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC3A5C755CF844BED661A72CDFCFDDED /* AssetBugShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C91CE8409C0D72729176317503BBA0 /* Build configuration list for PBXNativeTarget "AssetBugShared" */;
+			buildPhases = (
+				1DC72FF43C21E160376AF0AF04698CC1 /* Headers */,
+				B03B120DE48B67CD923BC2A0CB293FDF /* Sources */,
+				F3BF4B3283A7CC1491B71AD51F2635D2 /* Frameworks */,
+				65A7DFAAB1A2A94EA45470EAFFB9DD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssetBugShared;
+			productName = AssetBugShared;
+			productReference = EA086B3EF0F5BE0721505F614B768C4A /* AssetBugShared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F7D8EACB80FED67CFFB2646BE3C605F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3A5C755CF844BED661A72CDFCFDDED /* AssetBugShared */,
+				27B2ED37853FAB9A2D9AA72ACDF00631 /* Pods-ColorAssetBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286DE34EAB5BFD000B9307A41168875F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A7DFAAB1A2A94EA45470EAFFB9DD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B640E3A2688E7BBF5C1A03A668E4319B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFD1FFF3FEAB1CCB5BA1A18B3AE8793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A98604BFF29CEC48394F6C7E5A87F /* Pods-ColorAssetBug-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03B120DE48B67CD923BC2A0CB293FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C244E3C6B4C3F0E056A2A207DBF655 /* AssetBugShared-dummy.m in Sources */,
+				749C1BE618B5EF5B1179DE8188A525F4 /* SharedClass.swift in Sources */,
+				A040249AF493837E7A381B33032C0826 /* UIColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8263DC9C7DCE9015A94997C9B322D6E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AssetBugShared;
+			target = AC3A5C755CF844BED661A72CDFCFDDED /* AssetBugShared */;
+			targetProxy = DF1E675EE538963C4247B58B96A6739D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		18E97D9EC986AE6FBFC98F7F88344972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C269FE193AE8D0BDECE33BC230DAA55 /* AssetBugShared.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AssetBugShared/AssetBugShared-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AssetBugShared/AssetBugShared-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AssetBugShared/AssetBugShared.modulemap";
+				PRODUCT_MODULE_NAME = AssetBugShared;
+				PRODUCT_NAME = AssetBugShared;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EE849FE1743685A1BAAEE25E9A18FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55307767681B62CA8F5767C4F9C1DA87 /* Pods-ColorAssetBug.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorAssetBug/Pods-ColorAssetBug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorAssetBug/Pods-ColorAssetBug.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD2FBE9205D3C9FB9369F264A0693750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53321BBCEB01D4C9495FABC7E1C4E5FC /* Pods-ColorAssetBug.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorAssetBug/Pods-ColorAssetBug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorAssetBug/Pods-ColorAssetBug.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F45E7DC5B8801E3E8957B231DBD509F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C269FE193AE8D0BDECE33BC230DAA55 /* AssetBugShared.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AssetBugShared/AssetBugShared-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AssetBugShared/AssetBugShared-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AssetBugShared/AssetBugShared.modulemap";
+				PRODUCT_MODULE_NAME = AssetBugShared;
+				PRODUCT_NAME = AssetBugShared;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C91CE8409C0D72729176317503BBA0 /* Build configuration list for PBXNativeTarget "AssetBugShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45E7DC5B8801E3E8957B231DBD509F7 /* Debug */,
+				18E97D9EC986AE6FBFC98F7F88344972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523DB7714E23FA5E6BE83BA0DC303EE0 /* Build configuration list for PBXNativeTarget "Pods-ColorAssetBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2FBE9205D3C9FB9369F264A0693750 /* Debug */,
+				3EE849FE1743685A1BAAEE25E9A18FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

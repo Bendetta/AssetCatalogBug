@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AssetBugShared_Tests' do
+  pod 'AssetBugShared', :path => '../'
+  
+  
+end

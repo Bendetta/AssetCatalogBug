@@ -1,0 +1,16 @@
+PODS:
+  - AssetBugShared (0.1.0)
+
+DEPENDENCIES:
+  - AssetBugShared (from `../../assetpod/AssetBugShared/AssetBugShared.podspec`)
+
+EXTERNAL SOURCES:
+  AssetBugShared:
+    :path: "../../assetpod/AssetBugShared/AssetBugShared.podspec"
+
+SPEC CHECKSUMS:
+  AssetBugShared: f88bd8b9afaae3e31e946f6836379787de15a445
+
+PODFILE CHECKSUM: cf4e08a469d10209f31e377ba29b01fa1f046c53
+
+COCOAPODS: 1.7.2

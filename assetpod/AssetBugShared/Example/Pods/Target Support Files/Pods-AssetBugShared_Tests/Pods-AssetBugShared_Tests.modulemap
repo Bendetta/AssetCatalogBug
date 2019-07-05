@@ -1,0 +1,6 @@
+framework module Pods_AssetBugShared_Tests {
+  umbrella header "Pods-AssetBugShared_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

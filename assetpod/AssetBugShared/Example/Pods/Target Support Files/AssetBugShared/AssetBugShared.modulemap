@@ -1,0 +1,6 @@
+framework module AssetBugShared {
+  umbrella header "AssetBugShared-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_ColorAssetBug {
+  umbrella header "Pods-ColorAssetBug-umbrella.h"
+
+  export *
+  module * { export * }
+}

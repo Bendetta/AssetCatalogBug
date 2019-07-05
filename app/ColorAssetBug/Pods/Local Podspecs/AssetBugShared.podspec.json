@@ -1,0 +1,23 @@
+{
+  "name": "AssetBugShared",
+  "version": "0.1.0",
+  "summary": "A short description of AssetBugShared.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ben Liset/AssetBugShared",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ben Liset": "ben.liset@relativity.com"
+  },
+  "source": {
+    "git": "https://github.com/Ben Liset/AssetBugShared.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "Example/AssetBugShared/**/*.{swift}",
+  "resources": "Example/AssetBugShared/**/*.{xib,xcassets}"
+}
